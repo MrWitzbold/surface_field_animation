@@ -28,5 +28,5 @@ def run_func():
         decreasing = False
     return example_scalar_field(t)
 
-animation = plt.surface_plot_animation(run_func, frames=60, cm="plasma")
+animation = plt.surface_plot_animation(run_func, frames=60)
 plt.show()
