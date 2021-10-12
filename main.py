@@ -22,8 +22,10 @@ def run_func():
         t += 1
     else:
         t -= 1
-    if t == 40:
+    if t == 32:
         decreasing = True
+    if t == 20:
+        decreasing = False
     if t == 0 and decreasing == True:
         decreasing = False
     return example_scalar_field(t)
